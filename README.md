@@ -8,11 +8,11 @@
 
 [Objectives](#objectives) 
 
-[Data Collected and Source(s)](data-collected-and-source(s)) 
+[Data Collected and Source](data-collected-and-source) 
 
-[Exploratory Data Analysis (EDA for short)](#exploratory-data-analysis-(eda-for-short))
+[Exploratory Data Analysis](#exploratory-data-analysis)
 
-[Data Collection, Cleaning and preparations](#data-collection,-cleaning-and-preparations) 
+[Data Collection, Cleaning and preparations](#data-collection-cleaning-and-preparations)
 
 [Tools and Method Used](tools-and-method-used)
 
@@ -22,15 +22,18 @@
 
 [Data Analysis](#data-analysis)
 
-[Conclusion](#conclusion)
+[Conclusion](#conclusion) 
+
+[Recommendations](#recommendations)
 
 ### Project Overview 
 ---  
 This project is a personnel data with comprehensive analysis and management solution for a Human Resources Data. By analysing the various dataset received, we seek to gain insight into numbers of employee and retention, employee behaviour (such as attrition, promotion and satisfaction) with their job role and performance analysis which in turn help us to analyze and visualize all employee related data such as employee demographics and other key Human Resources metrics.
 
+
 ### Objectives 
 ---
-The objectives of this projects is to derive actionable insights into trends and correlations that can guide decision making and help to improve on factors influencing employee retention. Which can serve as a valuable insight/framework for decision makers, Human Resources professionals and Data Analysts to proactive measures
+The objectives of this projects is to derive actionable insights into trends and correlations that can guide decision making and help to improve on factors influencing employee retention. Which can serve as a valuable insight/framework for decision makers, Human Resources professionals and Data Analysts to take proactive measures
 
 - Analyze Retention trends: Identify factors contributing to employee retention or disengagement, if it's voluntary or involuntary separations
   
@@ -40,35 +43,49 @@ analysis on employee feedback
 - Identify areas for improvement in workplace and employee relation, enabling the development of targeted retention strategies
 
 
-### Data Collected and Source(s)
+### Data Collected and Source
 ---
-The Data used is the record of ex and current employee compiled by the Human Resources (H.R), it's named LITA H R  Data.xlsx
-The data is shared by one of the Incubator Hub Data Analysis facilitators and uploaded to LITA Canvass LMS where it's downloaded. It's a data with key fields such as employee demographic and other employee related fields 
- 
-### Exploratory Data Analysis (EDA for short)
+The Data used is the record of ex and current employee, compiled by the Human Resources (H.R), it's named LITA H R  Data.xlsx
+The data is shared by one of the Incubator Hub Data Analysis facilitators and uploaded to LITA Canvass LMS where it's downloaded. It's a data with key fields such as employee demographic and other employee related fields.
+
+
+### Exploratory Data Analysis
 ---
-This involved analysing and summarising of a dataset to uncover patterns, gain insights which answers some questions about the Data, such as: 
+Exploratory Data Analysis (EDA for short): This involved analysing and summarising of a dataset to uncover patterns, gain insights which answers some questions about the data, such as: 
+
 What is the Total Number of Employee?
+
 Which department has the highest attrition count? 
+
 Which gender has the highest attrition? 
+
 What age band (group) has the highest attrition?
 
 
-#### Data Collection, Cleaning and preparations
+### Data Collection, Cleaning and preparations
+---
 The following steps were taken before analysing the data
-Loading and transforming of data 
-Checking and confirming the data quality (by checkung the column quality, column profile and column distribution)
-Cleaning of the loaded data (by performing a promoter header due to improper heading of the loaded data)
-Analysing and Formatting of the loaded data (creating of conditional columnn for attrition count and changing the data type)
 
-##### Tools and Method Used
-Power BI Download Here
+i. Loading and transforming of data 
+
+ii. Checking and confirming the data quality (by checkung the column quality, column profile and column distribution) 
+
+iii. Cleaning of the loaded data (by performing a promoter header due to improper heading of the loaded data) 
+
+iv. Analysing and Formatting of the loaded data (creating of conditional columnn for attrition count and changing the data type)
+
+
+### Tools and Method Used
+---
+Power BI Download Here [Download Here](https://www.microsoft.com)
 - For building a report 
-- For creating a visualized dahsboard for interactive presentations 
-Github Download Here
+- For creating a visualized dahsboard for interactive presentations
+  
+Github Download Here [Download Here](https://www.microsoft.com)
 - For Portofolio Building
   
-#### Exploratory Analysis
+### Exploratory Analysis
+---
 To analyze and visualize a data, various features such as employe demographics, job roles, performance and retention are needed to explore to uncover insights. Key features to explore includes:
 
 - Total Number of Employee: The entire workforce count (both the current employees and employees who have left). This is needed to ascertain the level of retention in the organization. The Total Number of Employee according to the data is 1,470; Because this is a single value, I used a new card to visualize this report
@@ -77,8 +94,9 @@ To analyze and visualize a data, various features such as employe demographics, 
 
 - The gender with the highest attrition: The gender that has the highest attrition. There is need to know if the attrition is gender based or not. The dataset showed that male has more attrition than female with 150 attrition count out of 237 attrition
   
-- The age band (group) with the highest attrition: This age group with the highest attrition to decide if the attrition is due to aging/retirement or other factors
-  
+- The age band (group) with the highest attrition: This age group with the highest attrition to decide if the attrition is due to aging/retirement or other factors. 
+
+
 ### Data Visualization
 --- 
 Below is the screenshot of different charts visualizing various segement worked on with their values 
@@ -87,17 +105,20 @@ Below is the screenshot of different charts visualizing various segement worked 
 
 ![png](https://github.com/user-attachments/assets/58fceeb9-7cb8-4faa-965b-9b3ade19ca64)
 
-![png](https://github.com/user-attachments/assets/ffcc88b0-8183-4eee-a6e7-88556fbeeec3)
 
-![png](https://github.com/user-attachments/assets/dc68452e-95d6-4e77-ac69-d8ffa9ef989c)
+![Female interaction with the data](https://github.com/user-attachments/assets/e4c2e700-d6e6-4a0f-af56-989ba4c42630)
 
-![png](https://github.com/user-attachments/assets/ac977253-1ab2-497a-84ad-8e77161d3c72)
 
-![png](https://github.com/user-attachments/assets/12617905-55a6-4c81-8da7-a48593d5f16c)
+![Male interaction with the data](https://github.com/user-attachments/assets/db000d5d-39e0-4b91-9b50-bb384f9bd354)
 
-![png](https://github.com/user-attachments/assets/329ee8d0-9008-4175-b34b-be7ddef49937)
 
-![png](https://github.com/user-attachments/assets/babda69c-abd1-40de-a812-27c0c88e4653)
+![Interaction of Male attrition  with job role, satisfaction, educatnal field and age band](https://github.com/user-attachments/assets/63d7250e-2d82-4ea4-b890-ce40de42fcad)
+
+
+![Slicer Job Role interaction 2](https://github.com/user-attachments/assets/bed9c660-3ae5-4e8b-bda7-fa395f9368ae)
+
+
+![Slicer Job Role interaction](https://github.com/user-attachments/assets/f5c60523-7947-4a35-8dc4-53ca9fae264a)
 
 ### Data Analysis 
 --- 
@@ -111,40 +132,61 @@ Below is the screenshot of different charts visualizing various segement worked 
   
 - AVERAGE AGE: It shows the average age distribution of the entire workforce as 37
 
-- ATTRITION COUNT BY DEPARTMENT: It shows the number of employees of different department who have left the workforce within the period. Sarcastically, Human Resources department that manages recruiting is also experiencing attrition 😄
- (i) R and D top the list with 90 Male and 43 Female, Total = 133
- (ii) Sales Dept has 54 Male and 38 Female, Total = 92
- (iii) H R is the last on the list with 6 Male and 6 Female, Total = 12
+- ATTRITION COUNT BY DEPARTMENT: It shows the number of employees of different department who have left the workforce within the period. 
+  i. R and D top the list with 90 Male and 43 Female, Total = 133
+  
+  ii. Sales Dept has 54 Male and 38 Female, Total = 92
+  
+  iii. H R is the last on the list with 6 Male and 6 Female, Total = 12
+  
+Sarcastically, Human Resources department that manages recruiting is also experiencing attrition 😄
 
 - ATTRITION COUNT BY EDUCATIONAL FIELD: Number of employees of each educational field who left the workfore within the period
- (i) Life Sciences has 51 Male and 38 Female, Total = 89
- (ii) Medical has 44 Male and 19 Female, Total = 63
- (iii) Marketing has 20 Male and 15 Female, Total = 35 
- (iv) Technical has 22 Male and 10 Female, Total = 32
- (v) Human Resources has 4 Male and 3 Female, Total = 7
- 
-- ATTRITION COUNT BY GENDER: The number of employees by gender who have left the workforce. This shows more Male has left the workforce with total number of 150 attrition, while Female has 87
   
-- ATTRITION COUNT BY AGE BAND: Categorizing the employee who have left the workforce into age ranges. The data shows employees within 25-34 have the highest figure of 112 and over 55 having the lowest of 11
+ i. Life Sciences has 51 Male and 38 Female, Total = 89
+ 
+ii. Medical has 44 Male and 19 Female, Total = 63
+ 
+iii. Marketing has 20 Male and 15 Female, Total = 35 
+
+iv. Technical has 22 Male and 10 Female, Total = 32
+ 
+ (v) Human Resources has 4 Male and 3 Female, Total = 7.
+ 
+- ATTRITION COUNT BY GENDER: The number of employees by gender who have left the workforce. This shows more Male has left the workforce with total number of 150 attrition, while Female has 87.
+  
+- ATTRITION COUNT BY AGE BAND: Categorizing the employee who have left the workforce into age ranges. The data shows employees within 25-34 have the highest figure of 112 and over 55 having the lowest of 11.
 
 - CURRENT EMPLOYEE BY MARITAL STATUS AND GENDER: The different demographic groups who are still actively working. The data showed
- (i) Married employee has 348 Male and 241 Female, Total = 589
- (ii) Single employee has 198 Male and 152 Female, Total = 350
- (iii) Divorced has 186 Male and 108 Female, Total =294  
+
+i. Married employee has 348 Male and 241 Female, Total = 589 
+
+ii. Single employee has 198 Male and 152 Female, Total = 350
+ 
+iii. Divorced has 186 Male and 108 Female, Total = 294  
 
 - ATTRITION BASED ON JOB ROLE AND JOB SATISFACTION: The employee who left workforce based on their job role and satisfaction
- (i) Employee who are dissatisfied with their job role = 46
- (ii) Employee who are satisfied with their job role = 73
- (iii) Employee who are very dissatisfied with their job role = 66
- (iv) Employee who are very satisfied with their job role = 52
+  
+i. Employee who are dissatisfied with their job role = 46
+
+ii. Employee who are satisfied with their job role = 73
+
+iii. Employee who are very dissatisfied with their job role = 66
+
+iv. Employee who are very satisfied with their job role = 52
 
 - ATTRITION BASED ON JOB SATISFACTION AND EDUCATIONAL FIELD: The employee of a different educational field who left workforce based on their job satisfaction
-   (i) Employee who are dissatisfied with their job role = 46
- (ii) Employee who are satisfied with their job role = 73
- (iii) Employee who are very dissatisfied with their job role = 66
- (iv) Employee who are very satisfied with their job role = 52
+  
+i. Employee who are dissatisfied with their job role = 46
+
+ii. Employee who are satisfied with their job role = 73
+
+iii. Employee who are very dissatisfied with their job role = 66
+
+iv. Employee who are very satisfied with their job role = 52
 
 - JOB ROLE SLICER: The filtering of the data report by job role
+
   
 ### Conclusion 
 ---
@@ -157,22 +199,23 @@ Solution: A retention strategy such as, good employee engagement, regular survey
 
 Solution: An introduction of clear job role, improved benefits and competitive compensation packages could be an effective retention startategy in this regard. 
 
+
 3. Attrition by department analysis: It was found that R and D department face higher turnover rates.
 
 Solution: There is need for further investigation to identify departmental issues, such as their workload, leadership, that may be contributing to employee departures
+
 
 4. Attrition based on Gender: It was noticed that in all the analysis carried out, male has the highest attrition in all the records; From departmental, marital status, educational field, age band and other metrics
 
 Solution: Majority of male likes to balance family life, experience career advancement, have a good mentorship or role models, have a challenged career goals. They might seek employment elsewhere, where the above and more is available 
 
+
 ### Recommendations
 ---
-- Assess employee satisfaction through the data: To leverage satisfaction metrics to assess wellbeing and job satisfaction
-analysis on employee feedback.
-- Identify the areas for improvement in workplace and employee relation.
 - Career development: Offering career growth opportunities could encourage employee to stay longer and perform at their best.  
 - Competitive compensation: Regular review and adjustment of salary structure which ensure fairly compensation relative to their roles, experience and industry standard can help mitigate the risk of attrition before it happens.  
 - Enable the development of targeted retention strategies.
 
-Generally, attrition is a multiple contributing factors. The data provides actionable insights that can guide human resources professionals in developing targetd strategies to improve employee retention. By addresssing the identified issues, organizations can reduce turnover, enhance employee satisfaction, and foster a more engaged and loyal workforce.👏
+Generally, attrition is a multiple contributing factors. The data provides actionable insights that can guide human resources professionals in developing targetd strategies to improve employee retention. By addresssing the identified issues, organizations can reduce turnover, enhance employee satisfaction, and foster a more engaged and loyal workforce.👏 🙇‍♀️ 
+
 🔚
